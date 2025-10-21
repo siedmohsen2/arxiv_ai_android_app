@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">peaceful-binturong-pounce</string>
+    <string name="title_activity_main">peaceful-binturong-pounce</string>
+    <string name="package_name">com.example.peacefulbinturongpounce</string>
+    <string name="custom_url_scheme">com.example.peacefulbinturongpounce</string>
+</resources>
