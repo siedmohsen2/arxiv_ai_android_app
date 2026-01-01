@@ -1,6 +1,13 @@
 <resources>
-    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+
+    <!-- Base app theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
+    <!-- Used in AndroidManifest -->
+    <style name="AppTheme.NoActionBarLaunch" parent="AppTheme">
+    </style>
+
 </resources>
