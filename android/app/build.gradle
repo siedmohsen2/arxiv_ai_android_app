@@ -43,7 +43,7 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
 }
 
-apply from: 'capacitor.build.gradle'  // می‌توانید کامنت کنید اگر فقط APK لازم دارید
+// apply from: 'capacitor.build.gradle'  // می‌توانید کامنت کنید اگر فقط APK لازم دارید
 
 try {
     def servicesJSON = file('google-services.json')
