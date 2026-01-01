@@ -27,7 +27,13 @@ repositories {
         dirs 'libs'
     }
 }
-
+sourceSets {
+    main {
+        res.srcDirs += [
+            '../node_modules/.pnpm/@capacitor+android@7.4.3_@capacitor+core@7.4.3/node_modules/@capacitor/android/capacitor/src/main'
+        ]
+    }
+}
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
