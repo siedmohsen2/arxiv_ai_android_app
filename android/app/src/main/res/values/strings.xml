@@ -1,3 +1,5 @@
 <resources>
+    <string name="app_name">PeacefulBinturongPounce</string>
+    <string name="title_activity_main">PeacefulBinturongPounce</string>
     <string name="no_webview_text">This app requires a WebView to work</string>
 </resources>
